@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title> 
+    
+    <style> 
+    
+
+    /* =========== Estilos generales ========== */
+
+
+/*main, aside, div, section, ul, li, h2, h3, h4, img {border: 1px solid;} */
+
+body {
+    font-family: monospace;
+    font-size: 11px;
+}
+
+    main { 
+        margin: 0 auto;
+        display: flex;
+    width: 800px;
+    }
+    aside { 
+        background-color: rgb(142, 147, 151);
+        color: white;
+        width: 30%;
+    }
+
+    section {
+        width: 65%;
+    }
+
+aside, section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4, .experiencia-fecha {
+    color: blue;
+    font-size: 12px;
+}
+
+ul {
+    padding-left: 12px;
+}
+
+h3 {
+    padding-left: 10px;
+}
+
+li {
+    padding-left: 10px;
+}
+/* ========= Aside ============= */
+
+h3 {
+    color: black;
+}
+
+.habilidades.aside {
+    width: 200px;
+}
+
+#foto-perfil {
+    width: 150px;
+}
+
+.habilidades-contact{
+    list-style-type: none;
+}
+
+.habilidades-lenguas {
+    padding-left: 20px;
+}
+
+.habilidades-soft {
+    padding-left: 20px;
+}
+
+.habilidades-lenguas {
+    marker: inherit;
+}
+
+/* ============= Section =========== */
+
+#portada, .section-resumen, .section-experiencia{
+   width: 90%; 
+}
+
+#portada {
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+.experiencia-titulo {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    </style>
+</head>
+<body>
+    <main>
+        
+        <aside>
+            <div id="fotoCV">
+                <img id="foto-perfil" src="yo (1).mp4.png" alt="mi foto">
+            </div>
+
+            <div class="habilidades aside">
+                <h3>CONTACTO</h3><hr>
+                <ul>
+                    <li class="habilidades-contact">xxxxxx@gmail.com</li>
+                    <li class="habilidades-contact">(+54) - 935128xxxxx</li>
+                    <li class="habilidades-contact">Córdoba, Argentina</li>
+                    <li class="habilidades-contact"><a href="https://www.linkedin.com/in/adrian-chalabe1184/">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="habilidades aside">
+                <h3>SKILLS</h3><hr>
+                <ul>
+                    <li class="habilidades-tecnologias">Python</li>
+                    <li class="habilidades-tecnologias">Javascript</li>
+                    <li class="habilidades-tecnologias">MySQL</li>
+                    <li class="habilidades-tecnologias">Git</li>
+                    <li class="habilidades-tecnologias">APIs</li>
+                    <li class="habilidades-tecnologias">Estadística</li>
+                    <li class="habilidades-tecnologias">Cálculo matemático</li>
+                    <li class="habilidades-tecnologias">KPIs</li>
+                    <li class="habilidades-tecnologias">CRM</li>
+                    <li class="habilidades-tecnologias">SLA</li>
+                </ul>
+            </div>
+            <div class="habilidades aside">
+            <h3>IDIOMAS</h3><hr>
+            <ul>
+            <li class="habilidades-lenguas">Español</li>
+            <li class="habilidades-lenguas">Inglés</li>
+            <li class="habilidades-lenguas">Italiano</li>
+            </ul>
+            </div>
+
+
+            <div class="habilidades aside">
+
+                <H3>SOFT SKILLS</H3><hr>
+                <ul>
+                <li class="habilidades-soft">Comunicación</li>
+                <li class="habilidades-soft">Resolución de problemas</li>
+                <li class="habilidades-soft">Pensamiento Crítico</li>
+                <li class="habilidades-soft">Trabajo en equipo</li>
+                <li class="habilidades-soft">Adaptabilidad</li>
+                <li class="habilidades-soft">Empatía</li>
+                <li class="habilidades-soft">Persuación</li>
+                </ul>
+            </div>
+    
+        
+        </aside>
+        
+        <section>
+            <div id="portada">
+               <h1>Adrián Chalabe</h1><hr>
+               <hr>
+               <h4>Tutor/Mentor - Developer - QA Tester - Seller</h4>
+            </div>
+
+            <div class="section-resumen">
+              <p>Estudiante de Ingeniería Biomédica y Desarrollador de Software en formación. Experiencia en tutoría y mentoría especializada en matemáticas y física, reforzando habilidades analíticas y de resolución de problemas.</p>
+              <p>He liderado equipos de ventas digitales, enfocado en análisis de KPIs y estrategias comerciales. Como QA tester, he realizado pruebas técnicas y asegurado el control de calidad en proyectos de software.</p>
+              <p>Perfil técnico-comercial con capacidad para integrar conocimientos STEM en entornos multidisciplinarios.</p>
+            
+               </div>
+
+            <div class="section-experiencia">
+                <div class="experiencia">
+                    <div class=experiencia-titulo>
+                       <h4>Tutor y Mentor <hr></h4>
+                       <p class="experiencia-fecha">Enero 2015 - Diciembre 2024</p>
+                    </div>
+                    <h4>YUP - Tutor.com - Chegg</h4>
+                    <ul>
+                        <li>Diseño de planes de estudio personalizados para alumnos con dificultades en matemáticas y física, lo que aumentó el promedio grupal en 1.8 puntos en un semestre.</li>
+                        <li>Sesiones de resolución de problemas avanzados, donde el 90% de mis estudiantes aprobaron exámenes nacionales de física y matemáticas.</li>
+                        <li>Mentoría en métodos de estudio, que redujo el tiempo de aprendizaje autónomo de los alumnos en un 30% mediante técnicas eficientes.</li>
+                        <li>Preparación para olimpiadas académicas, con 3 estudiantes clasificados a etapas nacionales de matemáticas.</li>
+                        <li>Talleres de aplicaciones prácticas de física en ingeniería, logrando que el 100% de los participantes comprendiera modelos matemáticos complejos.</li>
+                    </ul>
+                
+                </div>
+                
+                <div class="experiencia">
+                   <div class=experiencia-titulo>
+                    <h4>Developer <hr></h4>
+                    <p class="experiencia-fecha">Febrero 2021 - Marzo 2023</p>
+                    </div>
+                    <h4>HeySphere</h4>
+                    <ul>
+                        <li>Implementé un algoritmo de matching que conectaba a clientes con expertos en base a especialidad, disponibilidad y calificaciones, utilizando Python y machine learning.</li>
+                        <li>Lideré la integración de WebSockets para permitir comunicaciones en tiempo real entre clientes y expertos durante sesiones de consultoría.</li>
+                    </ul>
+                </div>
+                
+                <div class="experiencia">
+                    <div class=experiencia-titulo>
+                       <h4>Seller <hr></h4>
+                       <p class="experiencia-fecha">Septiembre 2024 - Actualidad</p> 
+                    </div>
+                    <h4>Berminal Global Insights</h4>
+<ul>
+    <li>Supervisé un equipo de 14 vendedores, liderando su capacitación en técnicas de ventas consultivas y manejo de objeciones. </li>
+    <li>Diseñé dashboards en Excel/CRM para monitorear métricas clave (tasa de conversión, CAC, LTV).</li>
+    <li>Desarrollé y negocié acuerdos con influencers y socios clave para promocionar productos digitales.</li>
+</ul>
+                </div>
+                
+
+            </div>
+
+
+        </section>
+    </main>
+</body>
+</html>
